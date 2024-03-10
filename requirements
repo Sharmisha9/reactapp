@@ -1,0 +1,23 @@
+npm init 
+npm install cors - connects frontend with server
+npm install express
+npm install mysql
+npm install nodemon - to run appln we run node index.js , if we make any changes wehave to close the connection and ruuning again. so install nodemon, restarts server everytime we do changes.
+npm install sequelizer and sequelizer-cli - to manage and maintain queries. it has file with two functions up and down how to migrate in databse
+
+
+create models schemas and use sequelize.sync() to cretae table
+
+routes  express routing system
+
+get const post = req.body;
+    await Posts.create(post);  //async - data to be inserted in the form by user
+    res.json(post);
+post - sequelize has easy method of inserting data - when user submits we get json form, data can be accessed by body = psot variable
+get all    Posts.findAll()
+
+
+frontend 
+npm install laxios- makes api requests easily
+import useeffect hook - allows function to run imediately when page rerenders
+

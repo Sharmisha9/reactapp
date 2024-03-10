@@ -1,0 +1,161 @@
+.post {
+  width: 30%;
+  margin: 0 auto;
+  text-align: left;
+  font-family: monospace;
+  white-space: pre;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.body {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #888;
+}
+
+/* CreatePost.css */
+
+.createPostPage {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the left side */
+.leftSide {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  /* Add margin for spacing between left and right sides */
+}
+
+.leftSide div {
+  /* Styling for child div elements within leftSide */
+  margin-bottom: 10px;
+}
+
+/* Styling for the right side */
+.rightSide {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rightSide input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.rightSide button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rightSide button:hover {
+  background-color: #0056b3;
+}
+
+.ListOfComments {
+  margin-top: 20px;
+}
+
+.ListOfComments div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.header-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-bar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50vh;
+}
+
+.login-container input {
+  margin: 20px;
+  padding: 10px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
